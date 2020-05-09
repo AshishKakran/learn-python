@@ -17,4 +17,7 @@ print(s.lower()) #print in lowercase
 print(s.upper()) #print in uppercase
 
 s1="\t Welcome \n"
-print(s1.strip()) #strip whitespace characters
+print(s1.strip()) #strip trailing whitespace characters (those at the either end)
+
+s="\tGood\tMorning\n"
+print(s.strip(),end='')
