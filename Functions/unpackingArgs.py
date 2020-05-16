@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+def parrot(voltage, state='a stiff', action='voom'):
+    print("-- This parrot wouldn't", action, end=' ')
+    print("if you put", voltage, "volts through it.", end=' ')
+    print("E's", state, "!")
+
+d = {"voltage": "four million", "state": "bleedin' demised", "action": "VOOM"}
+parrot(**d)
+
+"""
+
+write the function call with the *-operator to unpack the arguments out of a list or tuple
+"""
+
